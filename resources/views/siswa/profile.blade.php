@@ -17,19 +17,6 @@
 										<h3 class="name">{{$siswa->nama_depan}}</h3>
 										<span class="online-status status-available">Available</span>
 									</div>
-									<div class="profile-stat">
-										<div class="row">
-											<div class="col-md-4 stat-item">
-												45 <span>Projects</span>
-											</div>
-											<div class="col-md-4 stat-item">
-												15 <span>Awards</span>
-											</div>
-											<div class="col-md-4 stat-item">
-												2174 <span>Points</span>
-											</div>
-										</div>
-									</div>
 								</div>
 								<!-- END PROFILE HEADER -->
 								<!-- PROFILE DETAIL -->

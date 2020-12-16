@@ -25,10 +25,10 @@
 	<!-- WRAPPER -->
 	<div id="wrapper">
 		<!-- NAVBAR -->
-		<!-- @include('layouts.includes._navbar') -->
+		@include('layouts.includes._navbar')
 		<!-- END NAVBAR -->
 		<!-- LEFT SIDEBAR -->
-		<!-- @include('layouts.includes._sidebar') -->
+		@include('layouts.includes._sidebar')
 		<!-- END LEFT SIDEBAR -->
 		<!-- MAIN -->
 		@yield('content')
@@ -46,7 +46,7 @@
 	<script src="{{asset('admin/assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 	<script src="{{asset('admin/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
 	<script src="{{asset('admin/assets/scripts/klorofil-common.js')}}"></script>
-	
+
 </body>
 
 </html>

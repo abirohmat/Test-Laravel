@@ -46,7 +46,7 @@ class SiswaController extends Controller
 		return redirect('/siswa')->with('sukses','Data Berhasil Di Hapus');
 	}
 
-	public function profile($id)
+	public function profile($id) //7
 	{
 		$siswa = \App\Siswa::find($id);
 		return view('siswa.profile',['siswa' => $siswa]);

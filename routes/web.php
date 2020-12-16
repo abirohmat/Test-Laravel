@@ -28,6 +28,6 @@ Route::group(['middleware' => 'auth'], function(){
 	Route::get('siswa/{id}/edit','SiswaController@edit')->middleware('auth'); //2
 	Route::post('siswa/{id}/update','SiswaController@update')->middleware('auth');//3
 	Route::get('siswa/{id}/delete','SiswaController@delete')->middleware('auth'); //4
-	Route::get('siswa/{id}/profile','SiswaController@profile');
+	Route::get('siswa/{id}/profile','SiswaController@profile');//5
 });
 	

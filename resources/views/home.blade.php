@@ -1,1 +1,1 @@
-home
+Test Laravel Data Mahasiswa

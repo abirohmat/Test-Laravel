@@ -2,7 +2,7 @@
 <html lang="en" class="fullscreen-bg">
 
 <head>
-	<title>Login | Klorofil - Free Bootstrap Dashboard Template</title>
+	<title>TEST LARAVEL</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -30,7 +30,7 @@
 					<div class="left">
 						<div class="content">
 							<div class="header">
-								<div class="logo text-center"><img src="{{asset('admin/assets/img/logo-dark.png')}}" alt="Klorofil Logo"></div>
+								<div class="logo text-center"><img src="{{asset('admin/assets/img/logo1.png')}}" alt="Klorofil Logo"></div>
 								<p class="lead">Login</p>
 							</div>
 							<form class="form-auth-small" action="/postlogin" method="POST">
@@ -59,7 +59,7 @@
 					<div class="right">
 						<div class="overlay"></div>
 						<div class="content text">
-							<h1 class="heading">Aplikasi Pengelolaan Data Siswa</h1>
+							<h1 class="heading">Aplikasi Pengelolaan Data MahaSiswa</h1>
 							<p>by Abi Rohmat</p>
 						</div>
 					</div>
